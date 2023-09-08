@@ -43,7 +43,7 @@ jupyter notebook --generate-config
 jupyter notebook password
 ```
 ```
-nohup jupyter notebook ip=0.0.0.0 &
+nohup jupyter notebook ip=0.0.0.0 --allow-root &
 ```
 ```
 python app.py
