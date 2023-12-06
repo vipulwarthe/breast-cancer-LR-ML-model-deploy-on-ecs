@@ -55,6 +55,9 @@ http://<public-ip>:5000/predict?s1=-0.96666522&s2=0.32786912&s3=-0.93579507&s4=-
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 ```
 ```
+sudo apt install unzip
+```
+```
 unzip awscliv2.zip
 ```
 ```
@@ -70,9 +73,8 @@ sudo systemctl start docker
 chmod 777 //var/run/docker.sock
 ```
 ```
-sudo aws configure
+aws configure --profile <your_docker_profile_name>
 ```
-
 ### Log into your AWS Console and open the Amazon ECR service.
 ### Create a new repository cancer-repository 
 #### visibility setting = public
