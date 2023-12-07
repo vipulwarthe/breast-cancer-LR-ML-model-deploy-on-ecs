@@ -28,7 +28,7 @@ python -m ipykernel install --user --name=student
 git clone https://github.com/prayog22/deploy-ml-model-on-ecs.git
 ```
 ```
-cd deploy-ml-model-on-ecs
+cd deploy-ml-model-on-ecs            (give the permission 777 to this folder)
 ```
 ```
 pip install -r requirements.txt
