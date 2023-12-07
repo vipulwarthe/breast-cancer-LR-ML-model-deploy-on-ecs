@@ -126,6 +126,6 @@ http://<public-ip>:5000/predict?s1=-0.96666522&s2=0.32786912&s3=-0.93579507&s4=-
 ```
 ## Hurray! finally my CancerApp is in operation. Now when we copy the URL in the browser, it predicted the result as ‘0’ which means a patient is diagnosed as Benign for breast cancer.
 # preferred link for more information
-'''
+
 https://srinipratapgiri.medium.com/deployment-of-containerized-machine-learning-model-application-on-aws-elastic-container-cbd1464643b3
-'''
+
