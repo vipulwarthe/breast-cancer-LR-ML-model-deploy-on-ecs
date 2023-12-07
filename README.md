@@ -16,7 +16,7 @@ bash Miniconda3-py38_23.3.1-0-Linux-x86_64.sh
 source ~/.bashrc
 ```
 ```
-conda create -n Health python=3.9 ipykernel
+conda create -n Health python=3.11 ipykernel
 ```
 ```
 conda activate Health
