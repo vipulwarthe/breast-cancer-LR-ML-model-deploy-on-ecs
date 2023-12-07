@@ -1,7 +1,7 @@
 
 ## Deployment
 
-To deploy this project run
+To deploy this project create one ubuntu 20.04 ec2 t2.medium/all traffic-sg and 30gb storage instance and connect with vscode and run below commands:
 
 ```
 sudo apt update && sudo apt upgrade -y
