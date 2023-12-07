@@ -46,6 +46,9 @@ jupyter notebook password
 nohup jupyter notebook --ip=0.0.0.0 --allow-root &
 ```
 ```
+copy public Ip of your ec2 instance and paste it in browser with 8888 port    "http://54.174.165.80:8888"
+'''
+'''
 python app.py
 ```
 ```
