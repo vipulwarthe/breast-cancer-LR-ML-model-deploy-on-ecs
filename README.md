@@ -70,7 +70,7 @@ sudo apt install docker.io -y
 sudo systemctl start docker 
 ```
 ```
-chmod 777 //var/run/docker.sock
+sudo chmod 777 //var/run/docker.sock
 ```
 ```
 aws configure --profile <your_docker_profile_name>
