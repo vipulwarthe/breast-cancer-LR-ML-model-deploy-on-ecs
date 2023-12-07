@@ -73,6 +73,9 @@ sudo systemctl start docker
 sudo chmod 777 //var/run/docker.sock
 ```
 ```
+pip install --upgrade awscli
+```
+```
 aws configure --profile <your_docker_profile_name>
 ```
 ### Log into your AWS Console and open the Amazon ECR service.
