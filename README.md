@@ -117,13 +117,18 @@ docker push <AWS Account Number>.dkr.ecr.ap-southeast-2.amazonaws.com/cancer-rep
 #### Finally, a Cluster CancerAppCancer has been created with Fargate 
 ### Creating a new Task definition
 #### Click create a new Task definition
-##### Task definition configuration = you just created
+Task definition family - give the name
+Infrastructure requirement - 
 ##### Launch type = AWS Fargate 
+OS, Architecture, Network mode keep default
 ##### Task role = ExecutionRole
 #### Container - 1 
 ##### Name = give the you just created the cluster name
 ##### image URL = Paste the URL 
-##### Add port = 5000 (In port mappings)
+##### Add port = 5000 (In port mappings) - TCP -HTTP
+####Resource allocation limits - conditional  optional
+####untick use log collection box 
+####other setting -default 
 ### Create
 ## Testing the CancerApp
 ### when you running the task in the network setting metion the all traffic or 5000 port then after run the task
