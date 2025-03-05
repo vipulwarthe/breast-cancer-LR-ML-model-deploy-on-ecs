@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.10
+FROM python:3.9
 
 # Create a directory in the container to hold your application files
 WORKDIR /app
