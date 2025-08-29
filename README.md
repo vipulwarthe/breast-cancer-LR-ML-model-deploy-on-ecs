@@ -7,6 +7,8 @@ To deploy this project create one ubuntu 20.04 ec2 t2.medium/all traffic-sg and 
 sudo apt update && sudo apt upgrade -y
 ```
 ```
+if you want to run notebook locally use below command to activate conda env in local system and run notebook
+
 wget https://repo.anaconda.com/miniconda/Miniconda3-py38_23.3.1-0-Linux-x86_64.sh
 ```
 ```
